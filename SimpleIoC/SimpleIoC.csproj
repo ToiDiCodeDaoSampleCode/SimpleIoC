@@ -41,8 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implement\Database.cs" />
+    <Compile Include="Implement\EmailSender.cs" />
+    <Compile Include="Mock\FakeEmailSender.cs" />
+    <Compile Include="Mock\FakeLogger.cs" />
+    <Compile Include="Interface\IDatabase.cs" />
+    <Compile Include="Interface\IEmailSender.cs" />
+    <Compile Include="Interface\ILogger.cs" />
+    <Compile Include="Implement\Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Mock\XMLDatabase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

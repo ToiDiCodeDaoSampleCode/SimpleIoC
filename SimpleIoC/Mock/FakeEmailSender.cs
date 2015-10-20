@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using SimpleIoC.Interface;
 
-namespace SimpleIoC
+namespace SimpleIoC.Mock
 {
     class FakeEmailSender : IEmailSender
     {
         public void SendEmail(int userId)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Send fake email");
         }
     }
 }

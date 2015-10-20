@@ -1,4 +1,4 @@
-﻿namespace SimpleIoC
+﻿namespace SimpleIoC.Interface
 {
     public interface IEmailSender
     {
